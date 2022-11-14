@@ -1,3 +1,10 @@
-body {
-    background-color: chocolate;
+@import "variables_mixins";
+@import "navbar";
+@import "masthead";
+@import "footer";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "century gothic";
 }
